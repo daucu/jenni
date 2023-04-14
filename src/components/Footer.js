@@ -14,10 +14,10 @@ export default function Footer() {
                 <div>
                 <p className='text-[30px] font-semibold'>Company</p>
                 <div className='flex items-center'>
-                    <p className='text-[18px] leading-[25px] text-[#bbb]'>Influencer program</p>
+                    <p className='text-[18px] leading-[25px] text-[#bbb] cursor-pointer'>Influencer program</p>
                     <div className='bg-[#CCEBFF] text-[#079CFF] px-2 py-1 rounded-md ml-1 text-[11px] leading-[13px] font-bold'>New</div>
                 </div>
-                <p className='text-[18px] leading-[25px] text-[#bbb] mt-2'>Careers</p>
+                <p className='text-[18px] leading-[25px] text-[#bbb] mt-2 cursor-pointer'>Careers</p>
                 <div className='flex items-center mt-4'>
                     <div>{instagram}</div>
                     <div className='mx-3'>{tiktok}</div>
@@ -29,8 +29,8 @@ export default function Footer() {
             <div className='sm:w-1/3 flex sm:justify-end p-5'>
                 <div>
                 <p className='text-[30px] font-semibold'>Legal</p>
-                <p className='text-[18px] leading-[25px] text-[#bbb]'>Terms of Service</p>
-                <p className='text-[18px] leading-[25px] text-[#bbb] mt-2'>Privacy Policy</p>
+                <p className='text-[18px] leading-[25px] text-[#bbb] cursor-pointer'>Terms of Service</p>
+                <p className='text-[18px] leading-[25px] text-[#bbb] mt-2 cursor-pointer'>Privacy Policy</p>
                 </div>
             </div>
         </div>

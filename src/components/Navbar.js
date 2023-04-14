@@ -18,16 +18,17 @@ export default function Navbar() {
                 <Link to="/blog" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
             </ul>
             <div className='flex items-center justify-end shrink grow basis-0'>
-                <p className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mr-4 hidden lg:flex'>Log In</p>
-                <button className={ open ? "hidden" : 'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:outline outline-[5px] outline-purple-100 transition-all md:hidden' }>Sign up</button>
+                <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mr-4 hidden lg:flex'>Log In</Link>
+                <Link to="/register" className={ open ? "hidden" : 'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:outline outline-[5px] outline-purple-100 transition-all md:hidden' }>Sign up</Link>
                 <button className='rounded-md text-[16px] text-white font-medium px-3 py-2 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:outline outline-[5px] outline-purple-100 transition-all hidden md:block'>Start writing for free</button>
                 <div className={ open ? "hidden" : "ml-2 cursor-pointer md:hidden" } onClick={()=>setOpen(true)}>{menu}</div>
                 <div className={ open ? "ml-2 cursor-pointer md:hidden" : "hidden" } onClick={()=>setOpen(false)}>{cross}</div>
             </div>
         </div>
         <div className='pb-8'>
-        <button className={'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:outline outline-[5px] outline-purple-100 transition-all md:hidden w-full text-center' }>Start writing for free</button>
+        <Link to="/register"><button className={'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:outline outline-[5px] outline-purple-100 transition-all md:hidden w-full text-center' }>Start writing for free</button></Link>
         <ul className='font-medium text-[16px] text-[#0a001f] w-full text-center mt-4'>
+                <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Login</Link>
                 <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</li>
                 <li className='mx-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</li>
                 <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</li>

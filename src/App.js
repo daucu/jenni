@@ -4,6 +4,8 @@ import Pricing from './components/Pricing';
 import About from './components/About';
 import Blog from './components/Blog';
 import Blog_single from './components/Blog_single';
+import Log from './components/Log';
+import Reg from './components/Reg';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/blog-single" element={<Blog_single/>} />
+          <Route path="/login" element={<Log/>} />
+          <Route path="/register" element={<Reg/>} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
       </BrowserRouter>

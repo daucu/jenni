@@ -21,8 +21,11 @@ export default function Home() {
         <div className='pt-[150px] px-4'>
             <div className='flex items-center justify-center text-[46px] leading-[51px] sm:text-[57px] sm:leading-[63px] font-extrabold text-center w-full'>
                 <div className='flex items-center justify-center flex-wrap tracking-tighter text-center'>
-                    <p className='text-center'>You Write,</p>
-                    <p className='bg-gradient-to-r from-[#3F1D96] to-[#7755CC] bg-clip-text text-transparent pr-2'>&nbsp;Jenni Completes</p>
+                    <p className='text-center'>CREATE AMAZING CONTENT</p>
+                    <div className='flex items-center'>
+                        <p className='bg-gradient-to-r from-[#3F1D96] to-[#7755CC] bg-clip-text text-transparent pr-2'>POSTS10X</p>
+                        <p className='text-center'>FASTER WITH AI.</p>
+                    </div>
                 </div>
             </div>
             <div className='flex justify-center mt-6'>
