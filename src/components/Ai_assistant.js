@@ -14,7 +14,7 @@ export default function Ai_assistant() {
             <div  className='flex justify-center mt-10'>
                 <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:transition-all'>Start writing for free</button>
             </div>
-            <img src={ai_assistant} alt="" className='lg:max-w-[900px] mx-auto mt-10'/>
+            <img src={ai_assistant} alt="" className='lg:max-w-[900px] mx-auto mt-10 hidden'/>
         </div>
     </div>
   )
