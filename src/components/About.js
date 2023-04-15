@@ -10,15 +10,19 @@ import v5 from './images/blog_img/v5.webp';
 import v6 from './images/blog_img/v6.webp';
 import v7 from './images/blog_img/v7.webp';
 import v8 from './images/blog_img/v8.webp';
+import founder1 from './images/founder1.png';
+import founder2 from './images/founder2.png';
 
 export default function About() {
   return (
     <div>
         <Navbar/>
         <div className='px-4 pt-[150px]'>
-          <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] m-auto text-[#0a001f]'><p className='max-w-[900px]'>Our mission is to usher in a new era of human creativity through artificial intelligence.</p></div>
-          <div className='mt-[80px]'>
-            <img src={about} alt="" className='max-w-[1050px] m-auto rounded-2xl'/>
+          <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] m-auto text-[#0a001f] text-center'>"Stay hungry, stay foolish"</div>
+          <div className='text-[25px] leading-[30px] font-extrabold max-w-[1050px] mx-auto mt-6 text-[#0a001f] text-center'>Founders</div>
+          <div className='mt-[80px] sm:flex gap-10 max-w-[800px] m-auto'>
+            <div className='w-1/2'><img src={founder1} alt="" className='h-full w-full'/></div>
+            <div className='w-1/2 mt-10 sm:mt-0'><img src={founder2} alt="" className='w-full h-full'/></div>
           </div>
           <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] mx-auto text-[#0a001f] my-[70px]'><p className='max-w-[900px]'>Our Values</p></div>
           <div className='flex flex-wrap my-10 max-w-[1100px] mx-auto'>

@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Try_jenny from './Try_jenny';
 import c1 from './images/blog_img/c1.webp';
 import c2 from './images/blog_img/c2.webp';
+import { tick } from './Svg';
 
 export default function Pricing() {
   return (
@@ -21,121 +22,199 @@ export default function Pricing() {
                   <div className='text-[#4b5563] rounded-full px-3 py-[1px] cursor-pointer'>Annually</div>
                 </div>
               </div>
-              <div className='max-w-[1000px] mx-auto flex mt-8'>
+              <div className='max-w-[1000px] mx-auto flex items-stretch mt-8'>
                 <div className='w-1/3 p-3'>
-                  <div className='rounded-xl border p-8'>
-                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Hobby</p>
-                    <p className='text-[14px] leading-[16px] text-[#8E9295] my-6'>The essentials to provide your best work for clients.</p>
-                    <div className='flex items-center mb-5'>
-                      <p className='text-[36px] text-[#101826] font-bold'>$15</p>
-                      <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
-                    </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
+                  <div className='rounded-xl border p-8 h-full flex flex-col justify-between'>
+                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Free plan</p>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate 10k* characters per month</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 40+ use-cases</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Write in 30+ languages</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 20+ tones</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Built in plagiarism checker</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access to premium community</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate upto 5 images per month with A</p>
                           </div>
                         </li>
                       </ul>
+                    </div>
+                    <div>
+                    <div className='flex items-center justify-center mt-5'>
+                      <p className='text-[36px] text-[#101826] font-bold text-center'>Free</p>
+                      {/* <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p> */}
+                    </div>
+                    <p className='text-[14px] leading-[16px] text-[#8E9295] mb-6 text-center'>Upgrade as you scale</p>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div className='w-1/3 p-3'>
-                  <div className='rounded-xl border p-8'>
-                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Hobby</p>
-                    <p className='text-[14px] leading-[16px] text-[#8E9295] my-6'>The essentials to provide your best work for clients.</p>
-                    <div className='flex items-center mb-5'>
-                      <p className='text-[36px] text-[#101826] font-bold'>$15</p>
-                      <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
-                    </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
+                  <div className='rounded-xl border p-8 flex flex-col justify-between'>
+                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Saver plan</p>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate 100k* characters per month</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 40+ use-cases</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Write in 30+ languages</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 20+ tones</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Built in plagiarism checker</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access to premium community</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate upto 20 images per month with A</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Create your own custom use- case</p>
                           </div>
                         </li>
                       </ul>
+                    </div>
+                    <div>
+                    <div className='flex items-center justify-center mt-5'>
+                      <p className='text-[36px] text-[#101826] font-bold text-center'>$9</p>
+                      <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
+                    </div>
+                    <p className='text-[14px] leading-[16px] text-[#8E9295] mb-6 text-center'>&90/year (<i>Get 2 months free!</i>)</p>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div className='w-1/3 p-3'>
-                  <div className='rounded-xl border p-8'>
-                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Hobby</p>
-                    <p className='text-[14px] leading-[16px] text-[#8E9295] my-6'>The essentials to provide your best work for clients.</p>
-                    <div className='flex items-center mb-5'>
-                      <p className='text-[36px] text-[#101826] font-bold'>$15</p>
-                      <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
-                    </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
+                  <div className='rounded-xl border p-8 flex flex-col justify-between'>
+                    <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Unlimited plan</p>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate UNLIMITED+ characters per month</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 40+ use-cases</p>
                           </div>
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
-                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Write in 30+ languages</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access 20+ tones</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Built in plagiarism checker</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Access to premium community</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Generate upto 100 images per month with A</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Dedicated account manager</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='flex items-center'>
+                            <div className='shrink-0'>{tick}</div>
+                            <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Priority email & chat support</p>
                           </div>
                         </li>
                       </ul>
+                    </div>
+                    <div>
+                    <div className='flex items-center justify-center mt-5'>
+                      <p className='text-[36px] text-[#101826] font-bold text-center'>$29</p>
+                      <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
+                    </div>
+                    <p className='text-[14px] leading-[16px] text-[#8E9295] mb-6 text-center'>$290/year <i>(Get 2 months free!)</i></p>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     </div>
                   </div>
                 </div>
