@@ -11,7 +11,7 @@ export default function Customer_love() {
   return (
     <div className='px-4 pt-[80px] bg-[#FAFAFC]'>
         <div className='max-w-[1250px] m-auto'>
-            <p className='text-[14px] leading-[21px] text-[#1199EE] font-bold text-center'>CUSTOMER LOVE</p>
+            <p className='text-[14px] leading-[21px] text-yellow-500 font-bold text-center'>CUSTOMER LOVE</p>
             <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6'>Join our community today!</p>
             <div className='flex justify-center'>
                 <p className='text-[#555] text-[22px] leading-[31px] text-center mt-3 w-[700px]'>AI Scribbler is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels</p>

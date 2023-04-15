@@ -287,7 +287,7 @@ export default function Pricing() {
         </div>
         <div className='px-4 py-[80px] bg-[#FAFAFC]'>
         <div className='max-w-[1250px] m-auto'>
-            <p className='text-[14px] leading-[21px] text-[#BB67CC] font-bold text-center'>SUPPORT</p>
+            <p className='text-[14px] leading-[21px] text-green-500 font-bold text-center'>SUPPORT</p>
             <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6'>Frequently asked questions</p>
             <div className='my-12 max-w-[800px] m-auto'>
                 <div className={ chevron === 1 ? 'transition-all' : 'bg-white rounded-xl shadow-lg' }>

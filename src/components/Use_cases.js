@@ -4,7 +4,7 @@ export default function Use_cases() {
   return (
     <div className='px-4 pt-[80px] bg-[#FAFAFC]'>
         <div className='max-w-[1250px] m-auto'>
-            <p className='text-[14px] leading-[21px] text-[#1199EE] font-bold text-center'>USE CASES</p>
+            <p className='text-[14px] leading-[21px] text-red-500 font-bold text-center'>USE CASES</p>
             <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6'>You're in control</p>
             <div className='flex justify-center'>
                 <p className='text-[#555] text-[22px] leading-[31px] text-center mt-3 w-[700px]'>Types of content <b>WE</b> can help you with </p>

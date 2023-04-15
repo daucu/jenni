@@ -5,7 +5,7 @@ export default function Ai_assistant() {
   return (
     <div className='px-4 pt-[80px]'>
         <div className='max-w-[1250px] m-auto'>
-            <p className='text-[14px] leading-[21px] text-[#BB66CC] font-bold text-center'>AI ASSISTANT</p>
+            <p className='text-[14px] leading-[21px] text-green-500 font-bold text-center'>AI ASSISTANT</p>
             <p className='text-[20px] leading-[30px] sm:text-[30px] sm:leading-[40px] text-[#0a001f] font-extrabold text-center mt-6 max-w-[900px] m-auto'>SCRIBBLER IS JUST LIKE WRITING EFFORTLESSLY BUT ON STEROIDS</p>
             <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6 max-w-[700px] m-auto'>Generate months of social media content in minutes</p>
             <div className='hidden justify-center'>
