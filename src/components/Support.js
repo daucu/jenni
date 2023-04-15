@@ -43,7 +43,7 @@ Citations are sources from across the web that relate to your content. When writ
 You can cite in APA, MLA, Harvard and more!</p>
                     </div>
                 </div>
-                <div className={ chevron === 3 ? 'transition-all' : 'bg-white rounded-xl shadow-lg' }>
+                <div className={ chevron === 3 ? 'transition-all mt-2' : 'bg-white rounded-xl shadow-lg mt-2' }>
                     <div className='p-5 flex justify-between items-center cursor-pointer' onMouseOver={()=>setChevron(3)} onMouseOut={()=>setChevron("")} onClick={()=>handleAcc(3) }>
                         <p className='text-[17px] font-bold text-[#222]'>Is AI Scribbler multilingual?</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class={ chevron === 3 ? (acc === 3 ? "fill-[#222] transition-all rotate-180" : "fill-[#222] rotate-0 transition-all") : "fill-[#b1b1b1] transition-all" } viewBox="0 0 16 16">
