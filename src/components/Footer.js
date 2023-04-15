@@ -12,7 +12,7 @@ export default function Footer() {
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-white'>Scribbler</p>
                 </Link>
-                <p className='text-[18px] leading-[25px] text-[#bbb]'>Copyright &copy; 2022 Jenni Inc.</p>
+                <p className='text-[18px] leading-[25px] text-[#bbb]'>Copyright &copy; 2022 AI Scribbler Inc.</p>
                 <p className='text-[18px] leading-[25px] text-[#bbb]'>All rights reserved.</p>
             </div>
             <div className='sm:w-1/3 flex sm:justify-center p-5'>

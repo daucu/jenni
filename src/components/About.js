@@ -17,10 +17,10 @@ export default function About() {
   return (
     <div>
         <Navbar/>
-        <div className='px-4 pt-[150px]'>
+        <div className='px-4 pt-[100px]'>
           <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] m-auto text-[#0a001f] text-center'>"Stay hungry, stay foolish"</div>
           <div className='text-[25px] leading-[30px] font-extrabold max-w-[1050px] mx-auto mt-6 text-[#0a001f] text-center'>Founders</div>
-          <div className='mt-[80px] sm:flex gap-10 max-w-[800px] m-auto'>
+          <div className='mt-[30px] sm:flex gap-10 max-w-[600px] m-auto'>
             <div className='sm:w-1/2'><img src={founder1} alt="" className='h-full w-full'/></div>
             <div className='sm:w-1/2 mt-10 sm:mt-0'><img src={founder2} alt="" className='w-full h-full'/></div>
           </div>

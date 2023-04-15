@@ -221,7 +221,7 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className='max-w-[1250px] mx-auto pt-[70px]'>
+          <div className='max-w-[1250px] mx-auto pt-[70px] hidden'>
               <p className='text-[14px] leading-[21px] text-[#1199EE] font-bold text-center'>CUSTOMER LOVE</p>
               <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6'>Reviews</p>
               <div className='flex justify-center'>
