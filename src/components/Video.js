@@ -10,7 +10,7 @@ export default function Video() {
     });
   return (
     <div className='mt-10 mb-[100px] px-4 sm:px-[100px]'>
-            <div className=' max-w-[1000px] m-auto relative'>
+            <div className=' max-w-[600px] m-auto relative'>
                 <video ref={videoRef} autoPlay muted loop className='z-0 rounded-xl shadow-xl w-full'>
                     <source src={video} />
                 </video>

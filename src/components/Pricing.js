@@ -142,7 +142,7 @@ export default function Pricing() {
                       <p className='text-[36px] text-[#101826] font-bold text-center'>$9</p>
                       <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
                     </div>
-                    <p className='text-[14px] leading-[16px] text-[#8E9295] mb-6 text-center'>&90/year (<i>Get 2 months free!</i>)</p>
+                    <p className='text-[14px] leading-[16px] text-[#8E9295] mb-6 text-center'>$90/year (<i>Get 2 months free!</i>)</p>
                     <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     </div>
                   </div>
