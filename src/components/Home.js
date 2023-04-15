@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div className='flex justify-center mt-4'>
                 <div className='flex items-center flex-wrap justify-center'>
-                    <div className='flex items-center'>
+                    <div className='hidden items-center'>
                         <div className='w-[30px] h-[30px] flex items-center justify-center rounded-full bg-white'>
                             <div className='w-[26px] h-[26px] rounded-full bg-cover bg-center' style={{backgroundImage:`url(${profile1})`}}></div>
                         </div>
@@ -49,7 +49,7 @@ export default function Home() {
                             <div className='w-[26px] h-[26px] rounded-full bg-cover bg-center' style={{backgroundImage:`url(${profile4})`}}></div>
                         </div>
                     </div>
-                    <p className='text-[14px] leading-[22px] text-[#555] relative left-[-10px]'>Join 1 million writers using AI Scribbler</p>
+                    <p className='text-[14px] leading-[22px] text-[#555] relative left-[-10px]'>Join writers using AI Scribbler</p>
                 </div>
             </div>
         </div>
