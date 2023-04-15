@@ -19,7 +19,7 @@ export default function Use_cases() {
                             </svg>
                         </div>
                         <p className='text-[24px] font-extrabold my-1 text-center'>Blog Outline</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>Save hours writing your essay or thesis with Jenni.</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Save hours writing your essay or thesis with Ai Scribbler.</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>

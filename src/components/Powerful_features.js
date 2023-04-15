@@ -33,7 +33,7 @@ export default function Powerful_features() {
                     <div>
                         <img src={pf3} alt="" className='w-full rounded-lg shadow-lg'/>
                         <p className='text-[20px] leading-[24px] sm:text-[32px] sm:leading-[38px] font-bold text-[#0a001f] mt-3'>In-text Citations</p>
-                        <p className='text-[#555] text-[20px] leading-[24px] sm:text-[22px] sm:leading-[31px] mt-3'>Jenni consults the latest research and cites in APA, MLA, or Harvard style</p>
+                        <p className='text-[#555] text-[20px] leading-[24px] sm:text-[22px] sm:leading-[31px] mt-3'>AI Scribbler consults the latest research and cites in APA, MLA, or Harvard style</p>
                     </div>
                 </div>
                 <div className='sm:w-1/2 px-3 py-5'>

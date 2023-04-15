@@ -1,6 +1,6 @@
 import React from 'react';
 import { rocket, check, quotes } from './Svg';
-import video from './videos/video.mp4';
+import video from './videos/scribbler.mp4';
 
 export default function Video() {
     const videoRef = React.useRef(null);
@@ -11,7 +11,7 @@ export default function Video() {
   return (
     <div className='mt-10 mb-[100px] px-4 sm:px-[100px]'>
             <div className=' max-w-[1000px] m-auto relative'>
-                <video ref={videoRef} autoPlay muted loop className='z-0 rounded-xl shadow-xl'>
+                <video ref={videoRef} autoPlay muted loop className='z-0 rounded-xl shadow-xl w-full'>
                     <source src={video} />
                 </video>
                 <div className='h-full min-w-full hidden lg:flex flex-col justify-between absolute top-0' style={{zIndex:9}}>

@@ -49,7 +49,7 @@ export default function Home() {
                             <div className='w-[26px] h-[26px] rounded-full bg-cover bg-center' style={{backgroundImage:`url(${profile4})`}}></div>
                         </div>
                     </div>
-                    <p className='text-[14px] leading-[22px] text-[#555] relative left-[-10px]'>Join 1 million writers using Jenni</p>
+                    <p className='text-[14px] leading-[22px] text-[#555] relative left-[-10px]'>Join 1 million writers using AI Scribbler</p>
                 </div>
             </div>
         </div>

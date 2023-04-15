@@ -14,7 +14,7 @@ export default function Customer_love() {
             <p className='text-[14px] leading-[21px] text-[#1199EE] font-bold text-center'>CUSTOMER LOVE</p>
             <p className='text-[38px] leading-[46px] sm:text-[46px] sm:leading-[51px] text-[#0a001f] font-extrabold text-center mt-6'>Join 1 million empowered writers </p>
             <div className='flex justify-center'>
-                <p className='text-[#555] text-[22px] leading-[31px] text-center mt-3 w-[700px]'>Jenni has helped write over 850 million words. From academic essays, journals, to top-ranking blog posts.</p>
+                <p className='text-[#555] text-[22px] leading-[31px] text-center mt-3 w-[700px]'>AI Scribbler has helped write over 850 million words. From academic essays, journals, to top-ranking blog posts.</p>
             </div>
             <div className='lg:flex gap-4 my-10 max-w-[1100px] mx-auto'>
                 <div className='lg:w-1/3 md:flex gap-4 lg:block'>
@@ -29,7 +29,7 @@ export default function Customer_love() {
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;PhD.</p>
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;25 Mar</p>
                             </div>
-                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">Jenni, the AI assistant for academic writing, just got BETTER and SMARTER.</p>
+                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">AI Scribbler, the AI assistant for academic writing, just got BETTER and SMARTER.</p>
                         </div>
                         <div className='grow-0 shrink-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1199EE" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -47,7 +47,7 @@ export default function Customer_love() {
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;&#64;sonofgorkhali,</p>
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;23 Aug</p>
                             </div>
-                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">I started with Jenni-who &amp; Jenni-what.  But now I can't write without Jenni. I love Jenni AI and am amazed to see how far Jenni has come. Kudos to Jenni.AI team</p>
+                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">I started with AI Scribbler-who &amp; AI Scribbler-what.  But now I can't write without AI Scribbler. I love AI Scribbler AI and am amazed to see how far AI Scribbler has come. Kudos to AI Scribbler.AI team</p>
                         </div>
                         <div className='grow-0 shrink-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1199EE" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -67,7 +67,7 @@ export default function Customer_love() {
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;&#64;tak_td,</p>
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;10 Mar</p>
                             </div>
-                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">AI writing by  @whoisjenniai  is amazing.  It writes quickly, supports multiple languages, and has excellent translation accuracy from Japanese.</p>         
+                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">AI writing by  @whoisscribblerai  is amazing.  It writes quickly, supports multiple languages, and has excellent translation accuracy from Japanese.</p>         
                         </div>
                         <div className='grow-0 shrink-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1199EE" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -85,7 +85,7 @@ export default function Customer_love() {
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;&#64;xaviercaffrey13,</p>
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;19 Aug</p>
                             </div>
-                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">Copyai is alright but have you tried  <span className='text-[#19e]'>@whoisjenniai</span>?</p>
+                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">Copyai is alright but have you tried  <span className='text-[#19e]'>@whoisscribblerai</span>?</p>
                         </div>
                         <div className='grow-0 shrink-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1199EE" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -124,7 +124,7 @@ export default function Customer_love() {
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;PhD.</p>
                                 <p className='text-[12px] text-[#ababab]'>&nbsp;25 Mar</p>
                             </div>
-                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">Lost for words when I saw how perfectly this caption was written by <span  className='text-[#19e]'>@whoisjenniai</span></p>
+                            <p className="text-[12px] text-[#333] mt-1 tracking-tighter">Lost for words when I saw how perfectly this caption was written by <span  className='text-[#19e]'>@whoisscribblerai</span></p>
                         </div>
                         <div className='grow-0 shrink-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1199EE" class="bi bi-twitter" viewBox="0 0 16 16">
