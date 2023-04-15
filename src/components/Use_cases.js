@@ -18,8 +18,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Blog Outline</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>Save hours writing your essay or thesis with Ai Scribbler.</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Blog</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Generate Blog Headlines, Outline, Description and Story ideas within blink!</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
@@ -33,8 +33,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Blog Headline</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>Maintaining a blog is a proven way to drive traffic to website through SEO.</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Social Media</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Write Caption or Description about your content right away for Twitter, Instagram, YouTube etc !</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
@@ -48,8 +48,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Blog Description</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>Generate description ideas for your articles and blog posts.</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Email</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Now write Personalised Emails to potential customers or team members within seconds.</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
@@ -63,8 +63,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Blog Story Ideas</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>A great tool to create blog stories that people love the most.</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Video</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Get Titles, description,outline, intros and script for your video in less then 5 seconds</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
@@ -78,8 +78,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Article Content</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>Create appealing and awe-inspiring content for the viewers.</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Content</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Write aww inspiring Article, Paragraph and summarisation today ..</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
@@ -93,8 +93,8 @@ export default function Use_cases() {
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                             </svg>
                         </div>
-                        <p className='text-[24px] font-extrabold my-1 text-center'>Paragraph</p>
-                        <p className='text-[18px] text-[#6b7280] text-center'>You can now use any one-word keywords to create an engaging paragraph</p>
+                        <p className='text-[24px] font-extrabold my-1 text-center'>Advertisement assistance</p>
+                        <p className='text-[18px] text-[#6b7280] text-center'>Get Google Ads description and AIDA Framework with Scribbler in seconds!</p>
                         <div className='flex justify-center'>
                             <button className='rounded-md text-[14px] text-white font-semibold px-10 py-1 bg-[#FF9F06] hover:transition-all mt-6'>Try</button>
                         </div>
