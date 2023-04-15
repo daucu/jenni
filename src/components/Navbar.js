@@ -26,11 +26,11 @@ export default function Navbar() {
                 <div className={ open ? "ml-2 cursor-pointer md:hidden" : "hidden" } onClick={()=>setOpen(false)}>{cross}</div>
             </div>
         </div>
-        <div className='pb-8'>
-        <Link to="/register"><button className={'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all md:hidden w-full text-center' }>Start writing for free</button></Link>
-        <ul className='font-medium text-[16px] text-[#0a001f] w-full text-center mt-4'>
+        <div className='pb-12'>
+            <Link to="/register"><button className={'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all md:hidden w-full text-center' }>Start writing for free</button></Link>
+            <ul className='font-medium text-[16px] text-[#0a001f] w-full text-center mt-4'>
                 <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Login</Link>
-                <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</li>
+                <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mt-2'>Pricing</li>
                 <li className='mx-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</li>
                 <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</li>
             </ul>

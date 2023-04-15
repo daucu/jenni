@@ -21,8 +21,8 @@ export default function About() {
           <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] m-auto text-[#0a001f] text-center'>"Stay hungry, stay foolish"</div>
           <div className='text-[25px] leading-[30px] font-extrabold max-w-[1050px] mx-auto mt-6 text-[#0a001f] text-center'>Founders</div>
           <div className='mt-[80px] sm:flex gap-10 max-w-[800px] m-auto'>
-            <div className='w-1/2'><img src={founder1} alt="" className='h-full w-full'/></div>
-            <div className='w-1/2 mt-10 sm:mt-0'><img src={founder2} alt="" className='w-full h-full'/></div>
+            <div className='sm:w-1/2'><img src={founder1} alt="" className='h-full w-full'/></div>
+            <div className='sm:w-1/2 mt-10 sm:mt-0'><img src={founder2} alt="" className='w-full h-full'/></div>
           </div>
           <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] mx-auto text-[#0a001f] my-[70px] text-center'>Our Philosophy;)</div>
           <p className='text-[18px] text-[#555555] text-center max-w-[1000px] mx-auto  mb-[70px]'>As I imagine, so it becomes, and this is the very essence of magic. In a cybernian way, we are becoming gods, digital gods, a marriage
