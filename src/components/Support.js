@@ -28,7 +28,7 @@ export default function Support() {
                         <p className='text-[16px] text-[#666]'>AI Scribbler is currently the most advanced writing system. We use a combination of our own in-house AI systems, GPT4 and ChatGPT. Fine-tune controls and custom data from each user to generate the highest quality content on the market.</p>
                     </div>
                 </div>
-                <div className={ chevron === 2 ? 'transition-all my-2' : 'bg-white rounded-xl shadow-lg my-2' }>
+                <div className={ chevron === 2 ? 'transition-all my-2 hidden' : 'bg-white rounded-xl shadow-lg my-2 hidden' }>
                     <div className='p-5 flex justify-between items-center cursor-pointer' onMouseOver={()=>setChevron(2)} onMouseOut={()=>setChevron("")} onClick={()=>handleAcc(2) }>
                         <p className='text-[17px] font-bold text-[#222]'>What are citations?</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class={ chevron === 2 ? (acc === 2 ? "fill-[#222] transition-all rotate-180" : "fill-[#222] rotate-0 transition-all") : "fill-[#b1b1b1] transition-all" } viewBox="0 0 16 16">

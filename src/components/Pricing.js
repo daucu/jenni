@@ -32,8 +32,8 @@ export default function Pricing() {
                   <div className='text-[#4b5563] rounded-full px-3 py-[1px] cursor-pointer'>Annually</div>
                 </div>
               </div>
-              <div className='max-w-[1000px] mx-auto flex items-stretch mt-8'>
-                <div className='w-1/3 p-3'>
+              <div className='sm:max-w-[400px] lg:max-w-[1000px] mx-auto lg:flex items-stretch mt-8'>
+                <div className='lg:w-1/3 p-3'>
                   <div className='rounded-xl border p-8 h-full flex flex-col justify-between'>
                     <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Free plan</p>
                     <div className='mt-5'>
@@ -92,7 +92,7 @@ export default function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className='w-1/3 p-3'>
+                <div className='lg:w-1/3 p-3'>
                   <div className='rounded-xl border p-8 flex flex-col justify-between'>
                     <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Saver plan</p>
                     <div className='mt-5'>
@@ -157,7 +157,7 @@ export default function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className='w-1/3 p-3'>
+                <div className='lg:w-1/3 p-3'>
                   <div className='rounded-xl border p-8 flex flex-col justify-between'>
                     <p className='text-[20px] leading-[24px] text-[#191E29] font-semibold'>Unlimited plan</p>
                     <div className='mt-5'>
@@ -318,13 +318,13 @@ You can cite in APA, MLA, Harvard and more!</p>
                 </div> */}
                 <div className={ chevron === 3 ? 'transition-all my-2' : 'bg-white rounded-xl shadow-lg my-2' }>
                     <div className='p-5 flex justify-between items-center cursor-pointer' onMouseOver={()=>setChevron(3)} onMouseOut={()=>setChevron("")} onClick={()=>handleAcc(3) }>
-                        <p className='text-[17px] font-bold text-[#222]'>How does the word count work?</p>
+                        <p className='text-[17px] font-bold text-[#222]'>What payment methods are available?</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class={ chevron === 3 ? (acc === 3 ? "fill-[#222] transition-all rotate-180" : "fill-[#222] rotate-0 transition-all") : "fill-[#b1b1b1] transition-all" } viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                         </svg>
                     </div>
                     <div className={ acc === 3 ? 'px-5 pb-5 h-full' : 'h-0 overflow-hidden' }>
-                        <p className='text-[16px] text-[#666]'>We only ever count words that you accept from Jenni. If you don't like a generation and don't accept it, it is NOT added towards your word count 😊 </p>
+                        <p className='text-[16px] text-[#666]'>Our secure Stripe checkout supports all major credit cards.</p>
                     </div>
                 </div>
                 {/* <div className={ chevron === 4 ? 'transition-all my-2' : 'bg-white rounded-xl shadow-lg my-2' }>
