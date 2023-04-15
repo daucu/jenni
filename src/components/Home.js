@@ -31,7 +31,7 @@ export default function Home() {
                 <p className='text-[#555] text-[22px] leading-[31px] text-center w-[600px]'>Supercharge your writing with the most advanced AI writing assistant.</p>
             </div>
             <div  className='flex justify-center mt-10'>
-                <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-gradient-to-r from-[#3F1D96] to-[#7755CC] hover:transition-all'>Start writing for free</button>
+                <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
             </div>
             <div className='flex justify-center mt-4'>
                 <div className='flex items-center flex-wrap justify-center'>

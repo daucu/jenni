@@ -16,8 +16,8 @@ export default function Pricing() {
 
             <div className='mt-12'>
               <div className='flex justify-center'>
-                <div className='flex items-center text-[12px] leading-[24px] rounded-full p-[2px] border border-[#4f45e9]'>
-                  <div className='text-white rounded-full px-3 py-[1px] bg-[#4F45E9] cursor-pointer'>Monthly</div>
+                <div className='flex items-center text-[12px] leading-[24px] rounded-full p-[2px] border border-green-600'>
+                  <div className='text-white rounded-full px-3 py-[1px] bg-green-600 cursor-pointer'>Monthly</div>
                   <div className='text-[#4b5563] rounded-full px-3 py-[1px] cursor-pointer'>Annually</div>
                 </div>
               </div>
@@ -30,12 +30,12 @@ export default function Pricing() {
                       <p className='text-[36px] text-[#101826] font-bold'>$15</p>
                       <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
                     </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-[#5046E5] text-[#5A54C9] hover:text-white text-[13px] hover:bg-[#5A54C9] hover:transition-all'>Buy Now</button>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
@@ -43,7 +43,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
@@ -51,7 +51,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
@@ -69,12 +69,12 @@ export default function Pricing() {
                       <p className='text-[36px] text-[#101826] font-bold'>$15</p>
                       <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
                     </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-[#5046E5] text-[#5A54C9] hover:text-white text-[13px] hover:bg-[#5A54C9] hover:transition-all'>Buy Now</button>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
@@ -82,7 +82,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
@@ -90,7 +90,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
@@ -108,12 +108,12 @@ export default function Pricing() {
                       <p className='text-[36px] text-[#101826] font-bold'>$15</p>
                       <p className='p-0 text-[#586271] text-[13px] font-medium'>&nbsp;/month</p>
                     </div>
-                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-[#5046E5] text-[#5A54C9] hover:text-white text-[13px] hover:bg-[#5A54C9] hover:transition-all'>Buy Now</button>
+                    <button className='w-full h-[40px] leading-[40px] font-semibold rounded-md text-center border border-green-600 text-green-600 hover:text-white text-[13px] hover:bg-green-600 hover:transition-all'>Buy Now</button>
                     <div className='mt-5'>
                       <ul>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>5 products</p>
@@ -121,7 +121,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Up to 1,000 subscribers</p>
@@ -129,7 +129,7 @@ export default function Pricing() {
                         </li>
                         <li>
                           <div className='flex items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A54C9" class="bi bi-check2 fill-green-600" viewBox="0 0 16 16">
                               <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>
                             <p className='text-[#666D73] text-[15px] ml-3 font-medium'>Basic analytics</p>
