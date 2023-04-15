@@ -13,6 +13,7 @@ import Customer_love from './Customer_love';
 import Use_cases from './Use_cases';
 import Support from './Support';
 import Try_jenny from './Try_jenny';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -31,7 +32,9 @@ export default function Home() {
                 <p className='text-[#555] text-[22px] leading-[31px] text-center w-[600px]'>CREATE AMAZING CONTENT, POSTS 10X FASTER WITH AI SCRIBBLER</p>
             </div>
             <div  className='flex justify-center mt-10'>
-                <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
+                <Link to="/register">
+                    <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
+                </Link>
             </div>
             <div className='flex justify-center mt-4'>
                 <div className='flex items-center flex-wrap justify-center'>

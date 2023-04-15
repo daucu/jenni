@@ -1,5 +1,6 @@
 import React from 'react';
 import ai_assistant from './images/ai_assistant.webp';
+import { Link } from 'react-router-dom';
 
 export default function Ai_assistant() {
   return (
@@ -12,7 +13,9 @@ export default function Ai_assistant() {
                 <p className='text-[#555] text-[16px] leading-[22px] sm:text-[22px] sm:leading-[31px] text-center mt-3'>Generate months of social media content in minutes</p>
             </div>
             <div  className='flex justify-center mt-10'>
-                <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
+              <Link to="/register">
+                  <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
+                </Link>
             </div>
             <img src={ai_assistant} alt="" className='lg:max-w-[900px] mx-auto mt-10 hidden'/>
         </div>
