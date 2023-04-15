@@ -21,14 +21,14 @@ export default function Home() {
         <div className='pt-[150px] px-4'>
             <div className='flex items-center justify-center text-[24px] leading-[30px]  sm:text-[46px] sm:leading-[51px] md:text-[57px] md:leading-[63px] font-extrabold text-center w-full'>
                 <div className='flex items-center justify-center flex-wrap tracking-tighter text-center'>
-                    <p className='text-center'>CREATE AMAZING CONTENT</p>
-                    <p className='bg-gradient-to-r from-[#3F1D96] to-[#7755CC] bg-clip-text text-transparent pr-2'>&nbsp;POSTS 10X</p>
-                    <p className='text-center'>FASTER WITH AI.</p>
+                    <p className='text-center'>SAY HELLO!</p>
+                    <p className='bg-gradient-to-r from-[#3F1D96] to-[#7755CC] bg-clip-text text-transparent pr-2'>&nbsp;ITS AI SCRIBBLER</p>
+                    {/* <p className='text-center'>FASTER WITH AI.</p> */}
                     
                 </div>
             </div>
             <div className='flex justify-center mt-6'>
-                <p className='text-[#555] text-[22px] leading-[31px] text-center w-[600px]'>Supercharge your writing with the most advanced AI writing assistant.</p>
+                <p className='text-[#555] text-[22px] leading-[31px] text-center w-[600px]'>CREATE AMAZING CONTENT, POSTS 10X FASTER WITH AI SCRIBBLER</p>
             </div>
             <div  className='flex justify-center mt-10'>
                 <button className='rounded-xl text-[20px] sm:text-[24px] text-white font-semibold px-5 py-3 bg-green-600  hover:outline outline-[5px] outline-green-200 hover:transition-all'>Start writing for free</button>
