@@ -15,8 +15,9 @@ export default function Navbar() {
             </Link>
             <ul className='md:flex items-center font-medium text-[16px] text-[#0a001f] shrink-0 grow-0 hidden'>
                 <Link to="/pricing" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>
-                <Link to="/about" className='mx-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</Link>
-                <Link to="/blog" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
+                <Link to="/tools" className='mx-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Tools</Link>
+                <Link to="/about" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</Link>
+                <Link to="/blog" className='ml-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
             </ul>
             <div className='flex items-center justify-end shrink grow basis-0'>
                 <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mr-4 hidden lg:flex'>Log In</Link>
@@ -29,10 +30,22 @@ export default function Navbar() {
         <div className='pb-12'>
             <Link to="/register"><button className={'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all md:hidden w-full text-center' }>Start writing for free</button></Link>
             <ul className='font-medium text-[16px] text-[#0a001f] w-full text-center mt-4'>
-                <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Login</Link>
-                <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mt-2'>Pricing</li>
-                <li className='mx-4 p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</li>
-                <li className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</li>
+                <div className='my-2'>
+                    <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer w-full'>Login</Link>
+                </div>
+                <div className='my-2'>
+                    <Link to="/pricing" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>
+                </div>
+                <div className='my-2'>
+                    <Link to="/tools" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Tools</Link>
+                </div>
+                <div className='my-2'>
+                    <Link to="/about" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</Link>
+                </div>
+                <div className='my-2'>
+                    <Link to="/blog" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
+                </div>
+                
             </ul>
         </div>
     </div>
