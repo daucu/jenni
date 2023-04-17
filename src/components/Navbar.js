@@ -2,6 +2,7 @@ import React from 'react';
 import { cross, logo, menu } from './Svg';
 import leaf from './images/leaf.png';
 import { Link } from 'react-router-dom';
+import navLogo from './images/logo.png';
 
 export default function Navbar() {
     const [open, setOpen] = React.useState(false);
@@ -12,6 +13,7 @@ export default function Navbar() {
                 {/* <img src={leaf} alt="" className='h-[36px]' style={{transform:'rotateY(180deg)'}}/> */}
                 <p className='font-black text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                 <p className='font-black text-[30px] ml-2 tracking-tighter text-black'>SCRIBBLER</p>
+                <img src={navLogo} alt="" className='h-[40px] ml-2'/>
             </Link>
             <ul className='md:flex items-center font-medium text-[16px] text-[#0a001f] shrink-0 grow-0 hidden'>
                 <Link to="/pricing" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>

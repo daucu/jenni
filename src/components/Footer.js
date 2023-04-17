@@ -1,6 +1,7 @@
 import React from 'react';
 import { discord, instagram, linkedin, tiktok, twitter, youtube } from './Svg';
 import { Link } from 'react-router-dom';
+import navLogoWhite from './images/logowhite.png';
 
 export default function Footer() {
   return (
@@ -11,6 +12,7 @@ export default function Footer() {
                     {/* <img src={leaf} alt="" className='h-[36px]' style={{transform:'rotateY(180deg)'}}/> */}
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-white'>Scribbler</p>
+                    <img src={navLogoWhite} alt="" className='h-[40px] ml-2'/>
                 </Link>
                 <p className='text-[18px] leading-[25px] text-[#bbb]'>Copyright &copy; 2022 AI Scribbler Inc.</p>
                 <p className='text-[18px] leading-[25px] text-[#bbb]'>All rights reserved.</p>
