@@ -23,7 +23,7 @@ export default function Navbar() {
             </ul>
             <div className='flex items-center justify-end shrink grow basis-0'>
                 <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mr-4 hidden lg:flex'>Log In</Link>
-                <Link to="/register" className={ open ? "hidden" : 'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all hidden sm:block md:hidden' }>Sign up</Link>
+                <Link to="/register" className={ open ? "hidden" : 'rounded-md text-[13px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all  md:hidden' }>Sign up</Link>
                 <Link to="/register">
                     <button className='rounded-md text-[16px] text-white font-medium px-3 py-2 bg-green-600 hover:outline outline-[5px] outline-green-200 transition-all hidden md:block'>Start writing for free</button>
                 </Link>
