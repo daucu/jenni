@@ -10,7 +10,7 @@ export default function Register(){
             <div className='w-full md:w-1/2 bg-[#FAFAFC] py-[70px] flex justify-center items-center'>
                 <div className='sm:w-[400px]'>
                     <p className='text-[30px] leading-[36px] text-[#111827] font-extrabold'>Sign up</p>
-                    <p className='text-[16px] leading-[25px] text-[#6b7280]'>Create your free Jenni account</p>
+                    <p className='text-[16px] leading-[25px] text-[#6b7280]'>Create your free AI Scribbler account</p>
                     <button className='flex items-center justify-center h-[52px] rounded-md border mt-10 w-full'>
                         <div className='mr-3'>{google}</div>
                         <div className='text-[16px] leading-[16px] text-[#111827] font-semibold'>Login in with Google</div>
@@ -55,9 +55,8 @@ export default function Register(){
                     <div className='flex justify-center'>
                         <div>
                             <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px]'>Say 👋 to your best writing</p>
-                            <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px] mt-4'>jenni.ai</p>
+                            <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px] mt-4'>AI Scribbler</p>
                         </div>
-
                     </div>
                 </div>
             </div>

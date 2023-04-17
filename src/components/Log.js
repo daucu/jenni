@@ -49,9 +49,8 @@ export default function Login() {
                     <div className='flex justify-center'>
                         <div>
                             <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px]'>Say 👋 to your best writing</p>
-                            <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px] mt-4'>jenni.ai</p>
+                            <p className='text-[36px] leading-[40px] text-[#f2f3fa] text-center font-extrabold max-w-[500px] mt-4'>AI Scribbler</p>
                         </div>
-
                     </div>
                 </div>
             </div>
