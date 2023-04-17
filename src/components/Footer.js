@@ -5,7 +5,7 @@ import navLogoWhite from './images/logowhite.png';
 
 export default function Footer() {
   return (
-    <div className='p-12 md:p-[70px] bg-gradient-to-r from-[#753dd2] to-[#3f9ff5] text-white'>
+    <div className='p-12 md:p-[70px] bg-gradient-to-tr from-[#753dd2] to-[#3f9ff5] text-white'>
         <div className='max-w-[900px] m-auto sm:flex'>
             <div className='sm:w-1/3 p-5'>
                 <Link to="/" className='w-[110px] h-[40px] flex items-center shrink grow basis-0'>
