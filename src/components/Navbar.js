@@ -14,13 +14,12 @@ export default function Navbar() {
                 <img src={navLogo} alt="" className='h-[28px] lg:h-[36px] relative top-[-2px]'/>
                 <p className='font-black text-[24px] lg:text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                 <p className='font-black text-[24px] lg:text-[30px] ml-2 tracking-tighter text-black'>SCRIBBLER</p>
-         
             </Link>
             <ul className='md:flex items-center font-medium text-[16px] text-[#0a001f] shrink-0 grow-0 hidden px-4'>
-                <Link to="/pricing" className='p-2 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>
-                <Link to="/tools" className='mx-2 p-2 hover:text-[#7452C9] transition-all cursor-pointer'>Tools</Link>
-                <Link to="/about" className='p-2 hover:text-[#7452C9] transition-all cursor-pointer'>About</Link>
-                <Link to="/blog" className='ml-2 p-2 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
+                <Link to="/pricing" className='p-2 lg:p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>
+                <Link to="/tools" className='mx-2 lg:mx-4 p-2 lg:p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Tools</Link>
+                <Link to="/about" className='p-2 lg:p-3 hover:text-[#7452C9] transition-all cursor-pointer'>About</Link>
+                <Link to="/blog" className='ml-2 lg:ml-4 p-2 lg:p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
             </ul>
             <div className='flex items-center justify-end shrink grow basis-0'>
                 <Link to="/login" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer mr-4 hidden lg:flex'>Log In</Link>
