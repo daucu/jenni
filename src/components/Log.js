@@ -1,6 +1,7 @@
 import React from 'react';
 import { google } from './Svg';
 import login_register from './images/login_register.png';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -38,7 +39,7 @@ export default function Login() {
                     <p className='text-[14px] leading-[20px] text-[#616af3] mt-3'>Forgot Password?</p>
                     <div className='flex items-center text-[14px] leading-[20px] cursor-pointer mt-6'>
                         <p className='text-[#6b7280]'>Dont have an account?&nbsp;</p>
-                        <p className='text-[#616af3] hover:text-[#ff0000]'>Sign up here</p>
+                        <Link to="/register" className='text-[#616af3] hover:text-[#ff0000]'>Sign up here</Link>
                     </div>
                 </div>      
             </div>
