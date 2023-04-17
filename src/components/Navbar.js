@@ -49,7 +49,6 @@ export default function Navbar() {
                 <div className='my-2'>
                     <Link to="/blog" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Blog</Link>
                 </div>
-                
             </ul>
         </div>
     </div>
