@@ -10,9 +10,9 @@ export default function Footer() {
             <div className='sm:w-1/3 p-5'>
                 <Link to="/" className='w-[110px] h-[40px] flex items-center shrink grow basis-0'>
                     {/* <img src={leaf} alt="" className='h-[36px]' style={{transform:'rotateY(180deg)'}}/> */}
+                    <img src={navLogoWhite} alt="" className='h-[36px] relative top-[-2px]'/>
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                     <p className='font-bold text-[30px] ml-2 tracking-tighter text-white'>Scribbler</p>
-                    <img src={navLogoWhite} alt="" className='h-[40px] ml-2'/>
                 </Link>
                 <p className='text-[18px] leading-[25px] text-[#bbb]'>Copyright &copy; 2022 AI Scribbler Inc.</p>
                 <p className='text-[18px] leading-[25px] text-[#bbb]'>All rights reserved.</p>

@@ -11,9 +11,10 @@ export default function Navbar() {
         <div className='max-w-[1250px] m-auto flex items-center justify-between h-[82px] md:h-[60px]'>
             <Link to="/" className='w-[110px] h-[40px] flex items-center shrink grow basis-0'>
                 {/* <img src={leaf} alt="" className='h-[36px]' style={{transform:'rotateY(180deg)'}}/> */}
+                <img src={navLogo} alt="" className='h-[36px] relative top-[-2px]'/>
                 <p className='font-black text-[30px] ml-2 tracking-tighter text-[#422099]'>AI</p>
                 <p className='font-black text-[30px] ml-2 tracking-tighter text-black'>SCRIBBLER</p>
-                <img src={navLogo} alt="" className='h-[40px] ml-2'/>
+         
             </Link>
             <ul className='md:flex items-center font-medium text-[16px] text-[#0a001f] shrink-0 grow-0 hidden'>
                 <Link to="/pricing" className='p-3 hover:text-[#7452C9] transition-all cursor-pointer'>Pricing</Link>
