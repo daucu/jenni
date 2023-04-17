@@ -5,7 +5,7 @@ import navLogoWhite from './images/logowhite.png';
 
 export default function Footer() {
   return (
-    <div className='p-12 md:p-[70px] bg-[#0A001F] text-white'>
+    <div className='p-12 md:p-[70px] bg-gradient-to-r from-[#753dd2] to-[#3f9ff5] text-white'>
         <div className='max-w-[900px] m-auto sm:flex'>
             <div className='sm:w-1/3 p-5'>
                 <Link to="/" className='w-[110px] h-[40px] flex items-center shrink grow basis-0'>
@@ -22,7 +22,7 @@ export default function Footer() {
                 <p className='text-[30px] font-semibold'>Company</p>
                 <Link to="/influencer-program" className='flex items-center'>
                     <p className='text-[18px] leading-[25px] text-[#bbb] cursor-pointer'>Influencer program</p>
-                    <div className='bg-[#CCEBFF] text-[#079CFF] px-2 py-1 rounded-md ml-1 text-[11px] leading-[13px] font-bold'>New</div>
+                    <div className='bg-[#CCEBFF] text-[#079CFF] px-2 py-1 rounded-md ml-1 text-[11px] leading-[13px] font-bold'>Coming up</div>
                 </Link>
                 <p className='text-[18px] leading-[25px] text-[#bbb] mt-2 cursor-pointer'>Careers</p>
                 <div className='flex items-center mt-4'>
