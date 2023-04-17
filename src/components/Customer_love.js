@@ -16,14 +16,14 @@ export default function Customer_love() {
             <div className='flex justify-center'>
                 <p className='text-[#555] text-[22px] leading-[31px] text-center mt-3 w-[700px]'>AI Scribbler is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels</p>
             </div>
-            <div className='lg:flex flex-wrap  my-10 max-w-[1100px] mx-auto'>
+            <div className='lg:flex flex-wrap items-stretch  my-10 max-w-[1100px] mx-auto'>
                 <div className='lg:w-1/3 md:flex p-4 lg:block'>
-                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex'>
+                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex h-full'>
                         <p className='text-[16px] font-medium leading-[20px] text-center w-full'>GO WITH AI SCRIBBLER HIGHLY RECOMMENDED. I HAVE TRIED A FEW AI COPYWRITING APPS BUT SO FAR SCRIBBLER IS THE BEST</p>
                     </div>
                 </div>
                 <div className='lg:w-1/3 md:flex p-4 lg:block'>
-                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex'>
+                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex h-full'>
                         <p className='text-[16px] font-medium leading-[20px] text-center w-full'>AI Scribbler is a fantastic tool for writing product descriptions and getting started on blog posts. No longer do I have to stare at a blank screen trying to figure out how to flesh out a topic beyond 50 words.</p>
                     </div>
                     <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl hidden'>
@@ -46,7 +46,7 @@ export default function Customer_love() {
                     </div>
                 </div>
                 <div className='lg:w-1/3 md:flex p-4 lg:block'>
-                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex'>
+                    <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl flex h-full'>
                         <p className='text-[16px] font-medium leading-[20px] text-center w-full'>With AI Content Creation, you can generate high-quality, engaging content across various mediums, including articles, blog, social media posts, and more with ease.</p>
                     </div>
                     <div className='md:w-1/2 lg:w-full p-8 shadow-lg rounded-xl hidden'>
@@ -68,10 +68,7 @@ export default function Customer_love() {
                             </svg>
                         </div>
                     </div>
-                </div>
-                <div className='lg:w-1/3 md:flex p-4 lg:block  shadow-lg rounded-xl flex'>
-                    <p className='text-[26px] font-medium leading-[30px] text-center w-full'>It seriously feels like writing on steroids .hahaha must try:)</p>
-                </div>                
+                </div>              
             </div>
         </div>
     </div>

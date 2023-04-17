@@ -7,6 +7,7 @@ import Blog_single from './components/Blog_single';
 import Log from './components/Log';
 import Reg from './components/Reg';
 import Tools from './components/Tools';
+import Influencer_program from './components/Influencer_program';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/login" element={<Log/>} />
           <Route path="/register" element={<Reg/>} />
           <Route path="/tools" element={<Tools/>} />
+          <Route path="/influencer-program" element={<Influencer_program/>}/>
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
       </BrowserRouter>

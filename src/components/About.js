@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import about from './images/about.webp';
 import v1 from './images/blog_img/v1.webp';
 import v2 from './images/blog_img/v2.webp';
 import v3 from './images/blog_img/v3.webp';
@@ -25,15 +24,7 @@ export default function About() {
             <div className='sm:w-1/2 mt-10 sm:mt-0'><img src={founder2} alt="" className='w-full h-full'/></div>
           </div>
           <div className='text-[25px] leading-[30px] sm:text-[57px] sm:leading-[63px] font-extrabold max-w-[1050px] mx-auto text-[#0a001f] my-[70px] text-center'>Our Philosophy;)</div>
-          <p className='text-[18px] text-[#555555] text-center max-w-[1000px] mx-auto  mb-[70px]'>As I imagine, so it becomes, and this is the very essence of magic. In a cybernian way, we are becoming gods, digital gods, a marriage
-of biology and technology. Friends, I am convinced ofthis hypothesis. I am reminded of Kevin Kelly's notion of how impoverished
-the world would have been withoutthe technology ofthe musical instrumentin time for Beethoven, or the technology ofthe oil
-painting in time for Van Gogh. No doubt, some may see it as cheating, as a shortcutthat we can type a few words and turn them into
-some Phantasmagoric text. Butimagine whatthe right words can give rise to. The new engineer is the prompt engineer. You know,
-Terence McKenna, said, The world is made of words. And if you know the words the world is made of, you can make of it whatever
-you wish. First,there was the Word and the Word was God. Itruly believe thatthe full flourishing ofthese technological couplings at
-their very best willturn all of us into the central character in the never-ending story. As we imagine, so it becomes. And this is the
-very essence of magic .</p>
+          <p className='text-[18px] text-[#555555] text-center max-w-[1000px] mx-auto  mb-[70px]'>As I imagine, so it becomes, and this is the very essence of magic. In a cybernian way, we are becoming gods, digital gods, a marriage of biology and technology. Friends, I am convinced ofthis hypothesis. I am reminded of Kevin Kelly's notion of how impoverished the world would have been  the technology ofthe musical instrument in time for Beethoven, or the technology of the oil painting in time for Van Gogh. No doubt, some may see it as cheating, as a shortcut that we can type a few words and turn them into some Phantasmagoric text. But imagine what the right words can give rise to. The new engineer is the prompt engineer. You know, Terence McKenna, said, The world is made of words. And if you know the words the world is made of, you can make of it whatever you wish. First, there was the Word and the Word was God. I truly believe that the full flourishing of these  couplings at their very best will turn all of us into the central character in the never-ending story. As we imagine, so it becomes. And this is the very essence of magic .</p>
           <div className='hidden flex-wrap my-10 max-w-[1100px] mx-auto'>
                 <div className='w-full sm:w-1/2 p-2'>
                     <div className='px-8 py-6 shadow-lg rounded-xl'>

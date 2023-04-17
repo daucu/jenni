@@ -18,10 +18,10 @@ export default function Footer() {
             <div className='sm:w-1/3 flex sm:justify-center p-5'>
                 <div>
                 <p className='text-[30px] font-semibold'>Company</p>
-                <div className='hidden items-center'>
+                <Link to="/influencer-program" className='flex items-center'>
                     <p className='text-[18px] leading-[25px] text-[#bbb] cursor-pointer'>Influencer program</p>
                     <div className='bg-[#CCEBFF] text-[#079CFF] px-2 py-1 rounded-md ml-1 text-[11px] leading-[13px] font-bold'>New</div>
-                </div>
+                </Link>
                 <p className='text-[18px] leading-[25px] text-[#bbb] mt-2 cursor-pointer'>Careers</p>
                 <div className='flex items-center mt-4'>
                     <div className='cursor-pointer'>{instagram}</div>
